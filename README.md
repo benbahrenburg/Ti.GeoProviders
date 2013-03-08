@@ -10,10 +10,10 @@ Providing a provider based approach to reverse geo location lookups in Titanium.
 <h2>How To Example</h2>
 
 <b>Using a single provider</b>
-The Ti.GeoProvider's common interface makes using a single or multiple providers easier.  See the [app-provider.js]() for an example on how to use this approach.
+The Ti.GeoProvider's common interface makes using a single or multiple providers easier.  See the [app-provider.js](https://github.com/benbahrenburg/Ti.GeoProviders/blob/master/app-provider.js) for an example on how to use this approach.
 
 <b>Going multi-tenant</b>
-All of the Ti.GeoProviders have their strengths and weaknesses, so why settle for just one.  Using the reverse multi provider module you can automatically failover when a provider is unable to find a location.  See the [app-multi-tenant.js]() for an example on how to use this approach.
+All of the Ti.GeoProviders have their strengths and weaknesses, so why settle for just one.  Using the reverse multi provider module you can automatically failover when a provider is unable to find a location.  See the [app-multi-tenant.js](https://github.com/benbahrenburg/Ti.GeoProviders/blob/master/app-multi-tenant.js) for an example on how to use this approach.
 
 <h2>Licensing & Support</h2>
 
