@@ -39,7 +39,9 @@ var helpers = {
 exports.providerLevel='REGIONAL';
 exports.providerLevelID = 3;
 exports.lastFoundOn = null;
+exports.providerCode='geonames';
 exports.providerName='Geo Names Provider';
+exports.providerNumber = 0;
 
 exports.addLocale = function(value){
 	Ti.API.debug("This provider does not support switching locale");

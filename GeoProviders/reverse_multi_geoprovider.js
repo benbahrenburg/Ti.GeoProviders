@@ -232,7 +232,7 @@ exports.reverse=function(lat, lng, onSuccess, onError){
 							}
 							
 							Ti.API.info('Geo Lookup using ' + _providers[activeProviderIndex].provider.providerName);
-							_providers[activeProviderIndex].provider.reverse(lat, lng, doSuccess,providerFallback);	
+							_providers[activeProviderIndex].provider.reverse(lat, lng, manage.doSuccess,manage.failover);	
 								
 						}else{
 							manage.failover();
@@ -246,6 +246,7 @@ exports.reverse=function(lat, lng, onSuccess, onError){
 			};
 			
 			manage.prepare();
+			manage.start();
 			
 	 } catch(error) {
 	  	Ti.API.info('>>>>>>> Error In reverseGeo ' + error.message);

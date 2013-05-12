@@ -44,7 +44,9 @@ exports.providerLevelID = 0;
 exports.providerLevel='ADDRESS';
 exports.lastFoundOn = null;
 
+exports.providerCode='benCoding';
 exports.providerName='benCoding Provider';
+exports.providerNumber = 1;
 
 exports.addLocale = function(value){
 	_locale = value;

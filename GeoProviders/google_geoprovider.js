@@ -70,8 +70,9 @@ var helpers = {
 exports.providerLevelID = 0;
 exports.providerLevel='ADDRESS';
 exports.lastFoundOn = null;
-
+exports.providerCode='google';
 exports.providerName='Google Provider';
+exports.providerNumber = 2;
 
 exports.addLocale = function(value){
 	Ti.API.debug("This provider does not support switching locale");
